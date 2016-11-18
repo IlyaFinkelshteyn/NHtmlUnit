@@ -1,5 +1,7 @@
 install:
+  - where nuget
   - choco install gitversion.portable -pre -y
+  - where nuget
 
 before_build:
   - nuget restore NHtmlUnit.sln -verbosity detailed
