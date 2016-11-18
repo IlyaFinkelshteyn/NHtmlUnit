@@ -4,7 +4,7 @@ install:
   - where nuget
 
 before_build:
-  - nuget restore NHtmlUnit.sln -verbosity detailed
+  - nuget.exe restore NHtmlUnit.sln -verbosity detailed
   - ps: gitversion /l console /output buildserver
 
 build:
