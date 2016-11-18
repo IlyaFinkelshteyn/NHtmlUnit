@@ -12,7 +12,7 @@
 NHtmlUnit is a .NET wrapper of [HtmlUnit][htmlunit]; a "GUI-less browser for
 Java programs".
 
-## Introduction
+## Introduction1
 
 We really like the HtmlUnit project, which enables headless web testing without
 needing to have a complete browser running. By using [IKVM][ikvm] it is possible
